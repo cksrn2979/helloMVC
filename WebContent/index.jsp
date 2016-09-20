@@ -8,10 +8,10 @@
 </head>
 <body>
 
-this is the home page for shopping
+<h3>THIS IS THE HOMEPAGE FOR SHOPPING </h3>
 
-<p> <a href="/helloMVC/home?action=login"> go to login page </a></p>
-<p> <a href="/helloMVC/home?action=help"> go to help page </a></p>
+<p> <a href="/helloMVC/home?action=login"> Go to login page!</a></p>
+<p> <a href="/helloMVC/home?action=register"> Go to register page !</a></p>
 
 
 

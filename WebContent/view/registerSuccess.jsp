@@ -7,7 +7,19 @@
 <title>Insert title here</title>
 </head>
 <body>
-this is login error Page
-<p> <a href="/helloMVC/index.jsp"> Try Again</a> </p>
+<h1> Registration SUCCESS!!!</h1><br>
+
+	<ul>
+
+		<li>Id : ${customer.id}</li>
+		<li>Password : ${customer.password}</li>
+		<li>Name : ${customer.name}</li>
+		<li>Gender : ${customer.gender}</li>
+		<li>Email : ${customer.email}</li>
+
+	</ul>
+	
+	<p> <a href="/helloMVC"> Go to home page!</a></p>
+	
 </body>
 </html>
