@@ -6,7 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
-
 <style>
 div.ex {
 	text-align: center;
@@ -17,20 +16,41 @@ div.ex {
 }
 </style>
 <body>
-	<h1>Login Form</h1>
+	<h1>Registration Form</h1>
 	<div class="ex">
-		<form action="/helloMVC/doLogin" method="post">
+		<form action="/helloMVC/doRegister" method="post">
 			<table cellpadding="5">
+				<tr>
+					<td colspan=2><b>Enter Information Here</b></td>
+				</tr>
 				<tr>
 					<td>아이디</td>
 					<td><input type="text" name="id"></td>
 				</tr>
-
 				<tr>
 					<td>비밀번호</td>
 					<td><input type="password" name="password"></td>
 				</tr>
-
+				
+				<tr>
+					<td>이름</td>
+					<td><input type="text" name="name"></td>
+				</tr>
+				
+				<tr>
+					<td>성별</td>
+					<td>
+					<input type="radio" name="gender" value="man" checked="checked">남자
+					<input type="radio" name="gender" value="woman">여자					
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td>이메일</td>
+					<td><input type="text" name="email"></td>
+				</tr>
+				
 				<tr>
 					<td></td>
 					<td><input type="submit" value="login"></td>

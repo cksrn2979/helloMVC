@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-this is login error Page
-<p> <a href="/helloMVC/index.jsp"> Try Again</a> </p>
+	<h1>${customer.name} logged in successfully.</h1>
+	
+	<p> <a href="/helloMVC"> Go to home page!</a></p>
 </body>
 </html>
