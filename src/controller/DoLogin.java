@@ -41,10 +41,10 @@ public class DoLogin extends HttpServlet {
 		
 		String page = null;
 		if (customer == null){
-			System.out.println("null");
 			page = "/view/loginFailed.jsp";
 			request.setAttribute("id", id);
 		}
+		
 		else{
 			page = "/view/loginSuccess.jsp";
 			request.setAttribute("customer", customer);

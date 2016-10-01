@@ -32,6 +32,8 @@ public class DoRegister extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		request.setCharacterEncoding("UTF-8");
+		
 		String id= request.getParameter("id");
 		String password= request.getParameter("password");
 		String name= request.getParameter("name");
